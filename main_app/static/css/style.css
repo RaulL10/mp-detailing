@@ -14,10 +14,4 @@ nav {
 a {
     color: white;
 }
-#landing {
-    display: flex;
-}
-#homeImg {
-    margin: 0 auto;
-    width: 90%;
-}
+

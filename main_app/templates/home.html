@@ -1,8 +1,28 @@
-{% extends 'base.html' %}
-{% block content %}
-<div id="landing">
-    <img src="https://i.imgur.com/eR1hMKk.jpg" alt="" id="homeImg">
-</div>
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Macondo&family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/home.css' %}">
+    <title>MP</title>
+</head>
+<body>
+    <header id="landing">
+            <nav>
+                <a href="{% url 'home' %}">HOME</a>
+                <a href="{% url 'about' %}">ABOUT</a>
+            </nav>
+        <h1 id="mainTitle">MP AUTO DETAILING</h1>
+    </header>
 
 
-{% endblock %}
+    <footer>
+        
+    </footer>
+</body>
+</html>
