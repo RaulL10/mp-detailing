@@ -1,0 +1,23 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+}
+nav {
+    background-color: black;
+    opacity: 90%;
+    width: 85%;
+    margin: 0 auto;
+    height: 50px;
+    border-radius: 8px;
+    text-align: center;
+}
+a {
+    color: white;
+}
+#landing {
+    display: flex;
+}
+#homeImg {
+    margin: 0 auto;
+    width: 90%;
+}
